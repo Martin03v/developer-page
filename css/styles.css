@@ -1,0 +1,56 @@
+
+
+:root {    
+    --blanco: #fff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    --grisclaro:#DFE9F3;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.awadeuwu {
+    font-size: 1.1rem;
+    color: var(--secundario);
+}
+
+.navegacion-principal {
+    background-color: var(--secundario);
+    display: flex;
+    justify-content: space-between; /* Distribuye los enlaces de manera uniforme */
+    align-items: center; /* Centra los elementos verticalmente */
+    padding: 1rem; /* Ajusta el espaciado del contenedor */
+}
+
+.navegacion-principal a {
+    color: var(--blanco);
+    text-decoration: none;
+    padding: 0.5rem 1rem; /* Ajusta el espacio interno de los enlaces */
+    font-weight: bold;
+    font-size: 1.6rem; /* Ajusta el tamaño de la fuente */
+    text-align: center;
+    margin: 0 1rem; /* Añade espacio entre los enlaces */
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
+    padding: auto;
+}
+
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 10rem;
+    padding:  0;
+}
+
+
+.nav-bg {
+    background-color: var(--secundario);
+}
+
